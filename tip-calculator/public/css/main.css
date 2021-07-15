@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  --bg-color: #c5e4e7;
+  --dark-green: #00474b;
+  --light-green: #9fe8df;
+  --middle-green: #25c1ac;
+  --error: #b47c6d;
+}
