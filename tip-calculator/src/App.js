@@ -19,8 +19,10 @@ const App = () => {
                 <button className="btn tip-btn">15%</button>
                 <button className="btn tip-btn">25%</button>
                 <button className="btn tip-btn">50%</button>
-                <button className="btn tip-btn">Custom</button>
+                <button className="btn tip-btn custom-btn">Custom</button>
               </div>
+              <label htmlFor="Number">Number of People</label>
+              <input type="text" name="Number" />
             </div>
             <div className="bot-right-section">Right Section</div>
           </div>
