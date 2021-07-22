@@ -24,7 +24,27 @@ const App = () => {
               <label htmlFor="Number">Number of People</label>
               <input type="text" name="Number" />
             </div>
-            <div className="bot-right-section">Right Section</div>
+            <div className="bot-right-section">
+              <div className="total-container">
+                <div className="seperator-div">
+                  <div className="text-container">
+                    <p>
+                      Tip Amount <span> / person</span>
+                    </p>
+                    <h2>$4.27</h2>
+                  </div>
+                  <div className="text-container">
+                    <p>
+                      Total <span> / person</span>
+                    </p>
+                    <h2>$32.79</h2>
+                  </div>
+                </div>
+                <div className="button-container">
+                  <button className="btn reset-btn">Reset</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </body>
